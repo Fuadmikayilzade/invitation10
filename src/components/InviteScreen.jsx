@@ -93,7 +93,7 @@ export default function InviteScreen(){
             <span>Kəmalə</span>
           </h1>
           <div className="g-divider"><div className="g-diamond"/></div>
-          <p className="hero-date">11 İyun 2026 · Çərşənbə</p>
+          <p className="hero-date">11 İyun 2026 · Cümə Axşamı</p>
           <p className="hero-venue">Planet Şadlıq Sarayı</p>
         </div>
       </section>
