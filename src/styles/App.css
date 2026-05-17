@@ -1,0 +1,3 @@
+.app-root{min-height:100%;height:auto}
+.app-music-btn{position:fixed;bottom:22px;right:18px;z-index:99999;width:46px;height:46px;border-radius:50%;border:1px solid rgba(212,165,116,.5);background:rgba(255,252,248,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#d4a574;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 18px rgba(212,165,116,.2);transition:transform .2s;-webkit-tap-highlight-color:transparent}
+.app-music-btn:hover{transform:scale(1.1)}

@@ -1,0 +1,16 @@
+:root{
+  --gold:#d4a574; --gold-dark:#b8943f; --gold-light:#e8c89a;
+  --beige:#f5ead8; --beige-dark:#e8dcc5;
+  --cream:#fffcf8; --ivory:#fdf6ee;
+  --text-dark:#3d2c1a; --text-mid:#6b5742;
+}
+html{height:100%;overflow-y:scroll;-webkit-overflow-scrolling:touch}
+body{min-height:100%;height:auto;overflow-y:visible;-webkit-overflow-scrolling:touch;font-family:'Cormorant Garamond',Georgia,serif;background:var(--cream);-webkit-font-smoothing:antialiased;color:var(--text-dark)}
+#root{min-height:100%;height:auto}
+::-webkit-scrollbar{width:3px}
+::-webkit-scrollbar-thumb{background:var(--gold);border-radius:2px}
+.g-divider{display:flex;align-items:center;gap:10px;margin:12px auto;width:65%;max-width:220px}
+.g-divider::before,.g-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.g-diamond{width:5px;height:5px;background:var(--gold);transform:rotate(45deg);flex-shrink:0}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
