@@ -131,7 +131,7 @@ export default function InviteScreen(){
             <p className="dc-desc">
               Yay mövsümünün incəliyi <br/>
               Xanımlar üçün: yaz-yay libası, uzun və ya qısa geyimlər<br/>
-              Cənablar üçün: klas kostyum və ya smart-casual
+              Cənablar üçün: klass kostyum və ya smart-casual
             </p>
           </div>
         </div>
