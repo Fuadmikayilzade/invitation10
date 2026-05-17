@@ -99,7 +99,7 @@ export default function InviteScreen(){
       </section>
 
       <div className="section reveal">
-        <Countdown weddingDate="2026-06-11T17:00:00"/>
+        <Countdown weddingDate="2026-06-11T18:00:00"/>
       </div>
 
       <div className="orn reveal">✿ · ✿ · ✿</div>
